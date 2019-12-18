@@ -11,8 +11,12 @@ find_package(Vala REQUIRED)
 vala_precompile(
     VALA_C VALA_PRECOMPILE_TARGET
         app/Main.vala
-        app/Sensor.vala
+        app/ISensor.vala
+        app/Internal.vala
         app/Netwerk.vala
+        app/Meting.vala
+        app/DebugSensor.vala
+        app/SenseHatSensor.vala
     PACKAGES
         libsoup-2.4
         gtk+-3.0

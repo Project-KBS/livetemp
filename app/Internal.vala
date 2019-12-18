@@ -1,7 +1,7 @@
 /**
  * Bindings voor onze `hat` library
  */
-namespace WideWorldImporters.LiveTemp.Internal {
+namespace WideWorldImporters.LiveTemp.Impl.Internal {
 
     /**
      * Directe mapping voor exported funcs uit sensor.h <br />

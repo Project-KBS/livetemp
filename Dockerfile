@@ -2,9 +2,11 @@
 FROM ubuntu:20.04
 
 # Installeer alle benodigde software
+ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
  && apt-get install -y --no-install-recommends \
 		libi2c-dev \
+		libsoup2.4 \
 		libc6-dev \
 		pkg-config \
  && rm -rf /var/lib/apt/lists/*
